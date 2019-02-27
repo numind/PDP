@@ -10,8 +10,12 @@
           <Section-A3 :sheet="sheet"></Section-A3>
         </tab-pane>
 
-        <tab-pane title="Sezione B">
-          <Section-B :sheet="sheet"></Section-B>
+        <tab-pane title="Sezione B1">
+          <Section-B1 :sheet="sheet"></Section-B1>
+        </tab-pane>
+
+        <tab-pane title="Sezione B2">
+          B2
         </tab-pane>
 
         <tab-pane title="Sezione C">
@@ -49,12 +53,12 @@ import SectionA from './SectionA.vue'
 import SectionA1 from './SectionA1.vue'
 import SectionA2 from './SectionA2.vue'
 import SectionA3 from './SectionA3.vue'
-import SectionB from './SectionB.vue'
+import SectionB1 from './SectionB1.vue'
 
 import List from '../../../static/pdp/list.json';
 
 export default {
-  components: {SectionA, SectionA1, SectionHeader, SectionA2, SectionA3, SectionB, Tabs, TabPane},
+  components: {SectionA, SectionA1, SectionHeader, SectionA2, SectionA3, SectionB1, Tabs, TabPane},
   data() {
     return {
       errors: [],

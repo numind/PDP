@@ -4,6 +4,7 @@
     "private": true,
     "scripts": {
         "serve": "vue-cli-service serve",
+        "start": "vue-cli-service serve",
         "build": "vue-cli-service build --dest dist/pdp",
         "lint": "vue-cli-service lint",
         "deploy": "vue-cli-service ftpdeploy --genHist --diffFileOnly --ftpCfgPath /ftpdeploy/ --ftpHistPath /ftpdeploy/"

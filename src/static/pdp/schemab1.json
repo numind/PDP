@@ -44,5 +44,52 @@
             "title": "Tratto",
             "val": ["Premuto", "Leggero", "Ripassato", "Incerto"]
         }]
+    }, {
+        "title": "Calcolo",
+        "subsections": [{
+            "title": "Difficoltà visuospaziali (es: quantificazione automatizzata)",
+            "val": ["Spesso", "Talvolta", "Mai"]
+        }, {
+            "title": "Recupero di fatti numerici (es: tabelline)",
+            "val": ["Raggiunto", "Parziale", "Non raggiunto"]
+        }, {
+            "title": "Automatizzazione dell’algoritmo procedurale",
+            "val": ["Raggiunto", "Parziale", "Non raggiunto"]
+        }, {
+            "title": "Errori di processamento numerico (negli aspetti cardinali e ordinali e nella corrispondenza tra numero e quantità)",
+            "val": ["Spesso", "Talvolta", "Mai"]
+        }, {
+            "title": "Uso degli algoritmi di base del calcolo (scritto e a mente)",
+            "val": ["Adeguata", "Parziale", "Non adeguata"]
+        }, {
+            "title": "Capacità di solving",
+            "val": ["Adeguata", "Parziale", "Non adeguata"]
+        }, {
+            "title": "Comprensione del testo di un problema",
+            "val": ["Adeguata", "Parziale", "Non adeguata"]
+        }]
+    }, {
+        "title": "Processo di Apprendimento",
+        "description": "",
+        "subsections": [{
+            "title": "Proprietà linguistica",
+            "val": ["difficoltà nella strutturazione della frase", "difficoltà nel reperimento lessicale", "difficoltà nell’esposizione orale"]
+        }, {
+            "title": "Memoria",
+            "val": ["categorizzazioni", "formule, strutture grammaticali, algoritmi (tabelline, nomi, date …)", "sequenze e procedure"]
+        }, {
+            "title": "Attenzione",
+            "val": ["attenzione visuo-spaziale", "selettiva", "intensiva"]
+        }, {
+            "title": "Affaticabilità",
+            "val": ["sì", "poco", "no"]
+        }, {
+            "title": "Prassie",
+            "val": ["difficoltà di esecuzione", "difficoltà di pianificazione", "difficoltà di programmazione e progettazione"]
+        }, {
+            "title": "Punti di forza"
+        }, {
+            "title": "Altro"
+        }]
     }]
 }

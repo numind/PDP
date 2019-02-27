@@ -2,15 +2,15 @@
 <div>
 
   <tabs fill class="flex-column flex-md-row">
+    <h3 class="text-danger"><strong>Verificare pagina 7 AREE DI FORZA NELLE DIMENSIONI CITATE</strong></h3>
     <tab-pane :title="item.title"  v-for="(item, index) in Schema.diagnosi" :key="index">
-
-      <textarea class="form-control" rows="3" placeholder="Informazioni generali"></textarea><br>
+      <textarea class="form-control" rows="3" placeholder="Informazioni generali" v-model="sheet[item.title + '_notes']"></textarea><br>
           <div v-for="(sect, indexS) in item.subsections" :key="indexS">
           <card class="border-1" shadow>
             <div class="row" >
               <div class="col">
                 <h5>{{ sect.title }}</h5>
-                <textarea class="form-control" rows="3" placeholder="Informazioni generali"></textarea>
+                <textarea class="form-control" rows="3" placeholder="Informazioni generali" v-model="sheet[sect.title + '_notes']"></textarea>
               </div>
               <div class="col">
                 <label for=""></label>
