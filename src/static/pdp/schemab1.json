@@ -1,0 +1,48 @@
+{
+    "diagnosi": [{
+        "title": "Lettura",
+        "subsections": [{
+            "title": "Velocità",
+            "val": ["Molto lenta", "Lenta", "Scorrevole"]
+        }, {
+            "title": "Correttezza",
+            "val": ["Adeguata", "Non adeguata (ad esempio confonde / inverte / sostituisce omette lettere o sillabe "]
+        }, {
+            "title": "Comprensione",
+            "val": ["Scarsa", "Essenziale", "Globale", "Completa-analitica"]
+        }]
+    }, {
+        "title": "Scrittura",
+        "subsections": [{
+            "title": "SOTTO DETTATURA",
+            "val": ["Corretta", "Poco corretta", "Scorretta"]
+        }, {
+            "title": "TIPOLOGIA ERRORI SOTTO Dettatura",
+            "val": ["Fonologici", "Non fonologici", "Fonetici"]
+        }, {
+            "title": "PRODUZIONE AUTONOMA/ADERENZA CONSEGNA",
+            "val": ["Spesso", "Talvolta", "Mai"]
+        }, {
+            "title": "PRODUZIONE AUTONOMA/CORRETTA STRUTTURA MORFO-SINTATTICA",
+            "val": ["Spesso", "Talvolta", "Mai"]
+        }, {
+            "title": "PRODUZIONE AUTONOMA/CORRETTA STRUTTURA TESTUALE(narrativo, descrittivo, regolativo …)",
+            "val": ["Spesso", "Talvolta", "Mai"]
+        }, {
+            "title": "PRODUZIONE AUTONOMA/CORRETTEZZA ORTOGRAFICA",
+            "val": ["Adeguata", "Parziale", "Non adeguata"]
+        }, {
+            "title": "PRODUZIONE AUTONOMA/USO PUNTEGGIATURA",
+            "val": ["Adeguata", "Parziale", "Non adeguata"]
+        }]
+    }, {
+        "title": "Grafia",
+        "subsections": [{
+            "title": "Leggibile",
+            "val": ["Sì", "Poco", "No"]
+        }, {
+            "title": "Tratto",
+            "val": ["Premuto", "Leggero", "Ripassato", "Incerto"]
+        }]
+    }]
+}

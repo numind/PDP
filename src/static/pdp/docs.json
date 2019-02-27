@@ -1,0 +1,96 @@
+{
+    "sections": [{
+            "title": "SEZIONE A",
+            "subtitle": "comune a tutti gli allievi con DSA e altri Bisogni Educativi Speciali - BES",
+            "description": "Dati Anagrafici e Informazioni Essenziali di Presentazione dell’Allievo",
+            "note": "",
+            "order": 1,
+            "subsections": [{
+                "title": "SEZIONE A1",
+                "subtitle": "Il Contesto",
+                "description": "",
+                "note": "",
+                "order": 1
+            }]
+        },
+        {
+            "title": "SEZIONE B - PARTE I",
+            "subtitle": "(allievi con DSA e altri Disturbi del Neurosviluppo",
+            "description": "",
+            "note": "",
+            "order": 1,
+            "subsections": [{
+                "title": "Descrizione delle abilità e dei comportamenti",
+                "subtitle": "",
+                "description": "",
+                "note": "",
+                "order": 1
+            }]
+        },
+        {
+            "title": "SEZIONE B - PARTE II",
+            "subtitle": "Allievi con altri BES",
+            "description": "description",
+            "note": "note della compilazione o altre note",
+            "order": 1
+        },
+        {
+            "title": "SEZIONE C",
+            "subtitle": "comune a tutti gli allievi con DSA e altri BES",
+            "description": "description",
+            "note": "note della compilazione o altre note",
+            "order": 1,
+            "subsections": [{
+                    "title": "C.1",
+                    "subtitle": "Osservazione di Ulteriori Aspetti Significativi",
+                    "description": "",
+                    "note": "",
+                    "order": 1
+                },
+                {
+                    "title": "C.2",
+                    "subtitle": "Patto Educativo",
+                    "description": "",
+                    "note": "",
+                    "order": 2
+                }
+            ]
+        },
+        {
+            "title": "SEZIONE D",
+            "subtitle": "comune a tutti gli allievi con DSA e altri BES",
+            "description": "",
+            "note": "",
+            "order": 1,
+            "subsections": [{
+                "title": "D.1",
+                "subtitle": "INTERVENTI EDUCATIVI E DIDATTICI",
+                "description": "Strategie di personalizzazione/individualizzazione",
+                "note": "",
+                "order": 1
+            }]
+        },
+        {
+            "title": "SEZIONE E",
+            "subtitle": "comune a tutti gli allievi con DSA e altri BES",
+            "description": "Quadro riassuntivo degli strumenti compensativi e delle misure dispensative - parametri e criteri per la verifica/valutazione",
+            "note": "",
+            "order": 1,
+            "subsections": [{
+                    "title": "INDICAZIONI GENERALI PER LA VERIFICA/VALUTAZIONE",
+                    "subtitle": "",
+                    "description": "",
+                    "note": "",
+                    "order": 1
+                },
+                {
+                    "title": "AZIONI SUL CONTESTO CLASSE",
+                    "subtitle": "Didattica inclusiva",
+                    "description": "",
+                    "note": "",
+                    "order": 2
+                }
+            ]
+        }
+    ]
+}
