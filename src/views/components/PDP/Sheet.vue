@@ -15,7 +15,7 @@
         </tab-pane>
 
         <tab-pane title="Sezione B2">
-          B2
+          <Section-B2 :sheet="sheet"></Section-B2>
         </tab-pane>
 
         <tab-pane title="Sezione C">
@@ -54,11 +54,12 @@ import SectionA1 from './SectionA1.vue'
 import SectionA2 from './SectionA2.vue'
 import SectionA3 from './SectionA3.vue'
 import SectionB1 from './SectionB1.vue'
+import SectionB2 from './SectionB2.vue'
 
 import List from '../../../static/pdp/list.json';
 
 export default {
-  components: {SectionA, SectionA1, SectionHeader, SectionA2, SectionA3, SectionB1, Tabs, TabPane},
+  components: {SectionA, SectionA1, SectionHeader, SectionA2, SectionA3, SectionB1, SectionB2, Tabs, TabPane},
   data() {
     return {
       errors: [],

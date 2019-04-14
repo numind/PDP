@@ -91,5 +91,67 @@
         }, {
             "title": "Altro"
         }]
-    }]
+    }],
+    "infoSignificant": [{
+            "title": "Famiglia e studente",
+            "cod": "fam",
+            "questions": [
+                { "id": 1, "q": "Va volentieri a scuola?", "r": ["Sì", "No", "Abbastanza"], "type": "radio" },
+                { "id": 2, "q": "Da quanto tempo non frequenta la scuola?", "r": [], "type": "text" },
+                { "id": 3, "q": "E’ interessato allo studio?", "r": ["Sì", "No", "Abbastanza"], "type": "radio" },
+                { "id": 4, "q": "Comportamenti o episodi particolari da segnalare", "r": [], "type": "textarea" },
+                { "id": 5, "q": "Quali sono le maggiori difficoltà che incontra in relazione alla malattia?", "r": [], "type": "textarea" },
+                { "id": 6, "q": "Quali sono i suoi punti di forza? Quali gli interessi?", "r": [], "type": "textarea" },
+                { "id": 7, "q": "E’ un migrante di passaggio?", "r": ["Sì", "No"], "type": "radio" },
+                { "id": 8, "q": "Che cosa è importante sapere?", "r": [], "type": "textarea" },
+                { "id": 9, "q": "E’ stata attivata l’istruzione domiciliare?", "r": ["Sì", "No"], "type": "radio" },
+                { "id": 10, "q": "Per quante ore/settinana?", "r": [], "type": "text" },
+                { "id": 11, "q": "altro", "r": [], "type": "textarea" }
+            ]
+        },
+        {
+            "title": "Docenti della scuola di appartenenza",
+            "cod": "doc",
+            "questions": [
+                { "id": 1, "type": "radio", "q": "Va volentieri a scuola?", "r": ["Sì", "No", "Abbastanza"] },
+                { "id": 2, "type": "text", "q": "Da quanto tempo non frequenta la scuola?", "r": [] },
+                { "id": 3, "type": "radio", "q": "Frequenta regolarmente", "r": ["Sì", "No"] },
+                { "id": 4, "type": "radio", "q": "Come è il profitto scolastico?", "r": ["Buono", "Sufficente", "Scarso"] },
+                { "id": 5, "type": "radio", "q": "E’ interessato allo studio?", "r": ["Sì", "No", "Abbastanza"] },
+                { "id": 6, "type": "textarea", "q": "Comportamenti o episodi particolari da segnalare", "r": [] },
+                { "id": 7, "type": "textarea", "q": "I genitori sono collaborativi? In che senso?", "r": [] },
+                { "id": 8, "type": "radio", "q": "Prima della malattia, aveva difficoltà particolari?", "r": ["Sì", "No"] },
+                { "id": 9, "type": "textarea", "q": "Quali difficoltà particolari?", "r": [] },
+                { "id": 10, "type": "textarea", "q": "Come sono le relazioni con i compagni?", "r": [] },
+                { "id": 11, "type": "radio", "q": "E’ abituato/a a studiare con qualche compagno?", "r": ["Sì", "No"] },
+                { "id": 12, "type": "text", "q": "Con quale compagno è abituato a studiare?", "r": [] },
+                { "id": 13, "type": "textarea", "q": "altro", "r": [] }
+            ]
+        },
+        {
+            "title": "Docenti della scuola in ospedale",
+            "cod": "osp",
+            "questions": [
+                { "id": 1, "type": "radio", "q": "E’ interessato allo studio?", "r": ["Sì", "No", "Abbastanza"] },
+                { "id": 2, "q": "Comportamenti o episodi particolari da segnalare", "r": [], "type": "textarea" },
+                { "id": 3, "q": "Quali sono le maggiori difficoltà che incontra in relazione alla malattia?", "r": [], "type": "textarea" },
+                { "id": 4, "q": "Quali sono i suoi punti di forza? Quali gli interessi?", "r": [], "type": "textarea" },
+                { "id": 5, "type": "textarea", "q": "I genitori sono collaborativi? In che senso?", "r": [] },
+                { "id": 6, "type": "textarea", "q": "Sono in atto buone sinergie con la struttura sanitaria di riferimento?", "r": [] },
+                { "id": 7, "type": "textarea", "q": "Che cosa potrebbe essere di aiuto?", "r": [] },
+                { "id": 8, "type": "textarea", "q": "altro", "r": [] }
+
+            ]
+        },
+        {
+            "title": "Sanitari",
+            "cod": "san",
+            "questions": [
+                { "id": 1, "type": "textarea", "q": "Informazioni sulle terapie in atto", "r": [] },
+                { "id": 2, "type": "Aspetti del piano terapeutico rilevanti per la progettazione educativa e didattica", "q": "altro", "r": [] },
+                { "id": 3, "type": "textarea", "q": "Che cosa potrebbe essere di aiuto, da parte della scuola?", "r": [] },
+                { "id": 4, "type": "textarea", "q": "altro", "r": [] }
+            ]
+        }
+    ]
 }
